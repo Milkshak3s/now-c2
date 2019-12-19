@@ -1,0 +1,13 @@
+{
+  "name": "now-c2",
+  "version": 2,
+  "builds": [
+      { "src": "**/*.py", "use": "@now/python" }
+  ],
+  "routes": [
+      {
+        "src": "/",
+        "dest": "/api/go/users"
+      }
+  ]
+}
