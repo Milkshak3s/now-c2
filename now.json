@@ -2,12 +2,16 @@
   "name": "now-c2",
   "version": 2,
   "builds": [
-      { "src": "*.py", "use": "@liudonghua123/now-flask" }
+      { "src": "*.go", "use": "@now/go" }
   ],
   "routes": [
       {
-        "src": "/.*",
-        "dest": "/"
+        "src": "/command",
+        "dest": "/command.go"
+      },
+      {
+        "src": "/control",
+        "dest": "/control.go"
       }
   ]
 }
