@@ -65,5 +65,6 @@ We now how everything we need to deploy our code. Deploying a new version of you
 
 Push this new code to your master branch and check your zeit.co dashboard, you'll notice that you have a nice little display of your current deployments:
 
-![zeit.co dashboard]
-(dashboard.png)
+[zeit.co dashboard](dashboard.png)
+
+Now will automatically deploy your master branch to a production 
